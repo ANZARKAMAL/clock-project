@@ -1,0 +1,56 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: #ff7337;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+h3{
+    text-align: right;
+    color: #ff7337;
+}
+#clockcontainer{
+    position: relative;
+    margin:auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(anzar.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    border: 6vmin solid #ff7337;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 3%;
+    height: 27%;
+    top: 23%;
+    left: 48%;
+    opacity: 0.8;
+}
+#minute{
+    width: 2%;
+    height: 34.2%;
+    top: 15%;
+    left: 49%;
+    opacity: 0.8;
+}
+#second{
+    width: 1%;
+    height: 38%;
+    top: 12%;
+    left: 49.6%;
+    opacity: 0.8;
+}
+P{
+    color: #ff7337;
+}
+
